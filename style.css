@@ -23,7 +23,7 @@ p {
     padding-right: 30px;
 }
 
-.name-highlight {
+.orange-highlight {
     color: orange;
 }
 
@@ -40,11 +40,11 @@ p {
 
 section {
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .top-banner {
-    background-image: url(images/top-banner.png);
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 
@@ -58,7 +58,36 @@ section {
 }
 
 .goals-area {
-    background-image: url(images/dream-bg.png);
+    background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.skills-exp {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.skills-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    background-color: white;
+}
+
+#MERN-Stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#novice-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
 }
