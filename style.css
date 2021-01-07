@@ -1,46 +1,61 @@
 body {
-    font-family: 'Poppins',
-        sans-serif;
     margin: 0;
 }
 
-h1 {
-    font-size: 50px;
-    font-weight: 500;
+.name-display {
+    display: block;
 }
 
+h1,
 h2 {
-    font-size: 40px;
-    font-weight: 500;
+    font-family: 'Bebas Neue',
+        cursive;
+    font-size: 48px;
+    color: #363958;
+    font-weight: 700;
 }
 
 h3 {
-    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Roboto',
+        sans-serif;
+    color: #363958;
 }
 
+
 p {
+    font-family: 'Roboto',
+        sans-serif;
     color: dimgray;
+    line-height: 24px;
+}
+
+.half-width p {
+    margin-bottom: 50px;
     padding-right: 30px;
 }
 
 .orange-highlight {
-    color: orange;
+    color: salmon;
 }
 
 .half-width {
-    width: 40%;
+    width: 41%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 2%;
 }
 
 .half-width img {
+    width: 80%;
+}
+
+.third-width img {
     width: 100%;
 }
 
 section {
     height: 500px;
-    padding-bottom: 100px;
 }
 
 .top-banner {
@@ -49,45 +64,147 @@ section {
 }
 
 .link-button {
+    font-family: 'Roboto',
+        sans-serif;
     text-decoration: none;
     padding: 10px 35px;
     border-radius: 5px;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .goals-area {
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+    padding-top: 80px;
 }
 
-.skills-exp {
+.project-head {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 0;
 }
 
-.skills-area {
-    background-image: url("images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
+.project-area {
+    background-color: #e5e5ee;
+    padding: 80px;
 }
 
-.single-experience {
-    box-shadow: 10px 10px 40px gray;
-    height: 70%;
+
+.third-width {
+    float: left;
+    width: 29%;
+    margin-left: 2%;
+    padding: 1.5%;
     background-color: white;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    margin-top: 45px;
 }
 
-#MERN-Stack {
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-    border-image-slice: 1;
+.third-width h3 {
+    text-align: center;
 }
 
-#novice-web {
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
-    border-image-slice: 1;
+.project-first {
+    margin-left: 0;
+}
+
+.facts-area {
+    padding: 80px 0;
+    height: 250px;
+}
+
+.facts-head {
+    margin: 0;
+    text-align: center;
+}
+
+.fourth-width {
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.fourth-width h3 {
+    font-family: 'Roboto',
+        sans-serif;
+    color: tomato;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.fourth-width p {
+    color: dimgray;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.testimonial-area {
+    padding: 80px 0;
+    background-color: #e5e5ee;
+    height: 550px;
+}
+
+.testimonial-head {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.testimonial-area img {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.testimonial-area .half-width-testimonial {
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    padding-left: 0;
+    width: 39%;
+    float: left;
+    margin-left: 4%;
+}
+
+.testimonial-area .half-width-testimonial h3 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-family: 'Bebas Neue',
+        cursive;
+    color: tomato;
+    font-size: 35px;
+}
+
+.testimonial-area .half-width-testimonial p {
+    text-align: center;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-bottom: 25px;
+    color: #363958;
+    font-size: 20px;
+
+}
+
+.testimonial-review {
+    margin-top: 100px;
+    height: 24%;
+    padding: 0px 40px !important;
+}
+
+.testimonial-review p {
+    font-style: italic;
+    font-weight: 500;
+    color: dimgray;
+}
+
+.tes-margin {
+    margin-top: 30px !important;
+}
+
+.tes-middle p {
+    margin-top: 43px;
 }
